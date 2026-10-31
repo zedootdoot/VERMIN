@@ -1,0 +1,16 @@
+// Tracks whether the room has been cleared
+room_cleared = false;
+
+// Timer for delaying fade back to van
+fade_timer = 0;
+
+// Whether to show the "Job Complete" message
+show_complete_message = false;
+
+global.respawn_room = rm_job4;
+
+global.options_allowed = true;
+
+if (global.current_music == noone || !audio_is_playing(global.current_music)) {
+    global.current_music = audio_play_sound(job4_music, 1, true);
+}
