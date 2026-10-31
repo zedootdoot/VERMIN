@@ -5,7 +5,7 @@
 // }
 
 // Menu setup
-menu_items = ["FULLSCREEN", "VOLUME", "RETURN TO TITLE", "MANAGER"];
+menu_items = ["FULLSCREEN", "VOLUME", "RETURN TO TITLE"];
 menu_selection = 0;
 global.next_room = noone;
 
